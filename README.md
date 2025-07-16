@@ -23,3 +23,12 @@ fatal: unable to access 'https://github.com/ipcer-firegod/1_firstry_github.git/'
 
 2.现在在github中更改了文件，等下进入vscode中查看。
 保存，依旧需要提交消息
+
+### 3_在vscode中进行以下
+1.github上有更改后，vscode中的本地仓库会出现“同步更改”（拉取），进行后即可同步github上的更改
+
+2.大概可以完成此次尝试，流程基本结束。
+条件为：Steam++的加速github没有开启，安全软件没有关闭，github使用的是镜像网站bgithub.xyz。
+（现在推测，直接“克隆仓库”是从github本站进行克隆http，手动克隆http也不会行；镜像网站上的http和本站不一样，应该可以使用。而ssh在两个网站上都是一样的。）
+
+3.为再次确保正常、以及查看推送、拉取、同步等操作，此次更改结束后，再进入github网站中进行结束
