@@ -14,3 +14,5 @@ fatal: unable to access 'https://github.com/ipcer-firegod/1_firstry_github.git/'
 
 4.vscode中源代码管理“打开文件夹”，打开刚才克隆的文件夹。
 克隆的是 1_firstry_github ，打开的是 上一级目录 1_firstry。
+
+5.保存。输入提交消息，“提交”，“同步更改”。
