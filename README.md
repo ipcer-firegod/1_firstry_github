@@ -51,3 +51,16 @@ github中，同样如此，更改文件后，需要进行一次“提交”。
 
 ### 6_随意
 再回来熟悉一下。
+
+## 第一个项目
+### 流程大概
+- Github上创建仓库
+1.使用Github先创建一个新仓库（1_library_github），注意，要添加readme文件，和gitignore文件（用来忽略调试编译等文件。c#是“dotnet”）
+2.复制ssh（https有问题，不太行），进入终端，cd到目录下。比如，D:\CSProgrom\Semester\2_Sophomore\Second_sem\Summer_vacation\C_practice\4_C#\1_Nowclassexp\13_library_git
+运行git命令：git clone “刚才复制的ssh”。会在当前目录下把仓库克隆下来。即在 13_library_git下添加一个1_library_github 文件夹。
+3.打开vscode，打开文件夹 1_library_github。
+
+- 本地初始化仓库
+正常打开文件夹，比如项目文件夹。在vscode中可以，“初始化仓库”或者“发布到Github”。
+这种方法用起来并不方便，各种原因，比如似乎连接不上Github（默认https？）、readme文件等都没有、初始化后各种选项似乎没有正确处理。
+总之，这种方法先按下不表，应该需要我了解、学习git的相关知识后才比较好用。
